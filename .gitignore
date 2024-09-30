@@ -1,3 +1,5 @@
 venv/
 media/
 keys.py
+api/__pycache__/
+__pycache__/
