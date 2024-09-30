@@ -11,10 +11,7 @@ import matplotlib.pyplot as plt
 import requests
 from openai import OpenAI
 import openai
-
-OPENWEATHER_API_KEY = '6c9127cade6ae94577ae69c3c30382e0'  # Replace with your actual API key
-OPENWEATHER_BASE_URL = 'https://api.openweathermap.org/data/3.0/onecall'
-OPENAI_API_KEY='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'
+from keys import OPENWEATHER_API_KEY, OPENWEATHER_BASE_URL, OPENAI_API_KEY
 
 # Cargar el modelo pre-entrenado de TensorFlow
 model = MobileNetV2(weights='imagenet')
