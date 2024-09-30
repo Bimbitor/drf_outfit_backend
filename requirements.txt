@@ -1,0 +1,10 @@
+django
+djangorestframework
+environs
+Pillow
+psycopg2-binary
+tensorflow
+pillow
+numpy
+matplotlib
+openai
